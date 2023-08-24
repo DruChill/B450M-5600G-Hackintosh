@@ -1,6 +1,7 @@
 # RyzenTosh B450-AII/5600G/AMD Radeon Graphics
-OpenCore EFI for B450 Chipset Motherboard with AMD Ryzen 5 5600G Processor + Radeon RX 6600 XT Graphics Card.
-Downloadr here: 
+OpenCore EFI for B450 Chipset Motherboard with AMD Ryzen 5 5600G Processor + Radeon™ Integrated Graphics.
+
+Downloadr here: https://bit.ly/B450M-5600G-Hackintosh 
 ## Specification
 
 - Motherboard     : Asus B450M - AII
@@ -8,11 +9,11 @@ Downloadr here:
 - CPU       : AMD Ryzen 5 5600G with Radeon Graphics
 - RAM       : 2 x 8GB DDR4 3600Mhz
 - Storage   : 500GB SSD + 1TB HDD
-- dGPU      : AMD Radeon RX 6600 XT 8 GB - GRAFICOS INTEGRADOS
+- dGPU      : Radeon™ Integrated Graphics
 - Ethernet  : Realtek RTL8111 Ethernet
 - Audio     : Realtek ALC892
 - Boot Mode : UEFI
-- Bootloader : OpenCore 0.8.7
+- Bootloader : OpenCore 0.9.3
 - OS : macOS Monterey 13.1 + Windows 11 Pro
 
 ## Whats Work?
