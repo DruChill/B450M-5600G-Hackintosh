@@ -34,17 +34,19 @@ At the time of starting macOS can give you a black screen, if that is your case 
 - TRIM Support for SSD
 - Etc
 
-## Tutorial
-- From Zero Tutorial : https://dortania.github.io/OpenCore-Install-Guide/
-- Creating the USB Installer : https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
-- Generating SMBIOS : https://github.com/corpnewt/GenSMBIOS
-- USB Fixes : https://dortania.github.io/OpenCore-Post-Install/usb/ and https://github.com/usbtoolbox/tool
+> [!TIP]
+> The BIOS configuration is very important. Read more below.
 
-Tutorial on "USB Fixes" related to the UTBMap.kext and SSDT-SLEEP.aml files. Please pay close attention to the guidelines that have been provided.
+## AMD BIOS Settings
+- Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
 
-All kinds of errors and kernel panics, beyond my responsibility.
-
-For Alfinauzikri - https://github.com/alfinauzikri/B550-5600G-6600XT-Hackintosh
+### Disable
+- Fast Boot
+- Secure Boot
+- Serial/COM Port
+- Parallel Port
+- Compatibility Support Module (CSM) (Must be off in most cases, GPU errors/stalls like gIO are common when this option is enabled)
+- IOMMU
 
 ## Results
 [![Captura-de-pantalla-2023-09-03-a-la-s-20-16-58.png](https://i.postimg.cc/L6Q8pm5g/Captura-de-pantalla-2023-09-03-a-la-s-20-16-58.png)](https://postimg.cc/QH53gGpj)
